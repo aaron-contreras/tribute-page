@@ -33,8 +33,9 @@ header {
 }
 
 #image {
-    border: 20px solid var(--tertiary-color);
+    max-width: 1400px;
     width: 75%;
+    border: 25px solid var(--tertiary-color);
 }
 #img-caption {
     padding: 25px;
