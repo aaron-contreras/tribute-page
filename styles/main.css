@@ -1,27 +1,70 @@
 body {
-    --primary-color: lightblue;
-    --secondary-color: lightsalmon;
+    --primary-color: #EFEFEF;
+    --secondary-color: #CAEBF2 ;
+    --tertiary-color: #FF3B3F;
     background-color: var(--primary-color);
     font-family: "Roboto Mono", monospace;
+    font-size: 24px;
+    margin: 0;
 }
-#main {
+.flex-container {
     display: flex;
     flex-direction: column;
-    justify-content: center;
     align-items: center;
+}
+header {
+    width: 50%;
+    margin: 50px auto;
     text-align: center;
+    
+}
+#main {
+    text-align: center;
+    margin-bottom: 100px;
 }
 #title {
-    font-size: 48px;
+    border: 5px solid black;
+    font-size: 3em;
+    padding: 10px;
 }
-#subtitle {
-    font-size: 24px;
+.subtitle {
+    margin-top: 0;
+    font-size: 1.5em;
 }
-#img-div {
-    width: 75vw;
-    background-color: var(--secondary-color);
-    padding: 25px 25px 25px 25px;
-}
+
 #image {
-    width: 100%;
+    border: 20px solid var(--tertiary-color);
+    width: 75%;
+}
+#img-caption {
+    padding: 25px;
+}
+#tribute-info {
+    display: grid;
+    grid-template-columns: 20% 30% 30% 20%;
+}
+.main-info {
+    margin: 0;
+    background-color: var(--secondary-color);
+    padding: 25px;
+    border: solid black;
+}
+#achievements {
+    grid-column: 2/3;
+    border-width: 10px 5px 5px 10px;
+    
+}
+#fun-facts {
+    border-width: 10px 10px 5px 5px;
+    grid-column: 3/4;
+}
+
+ul {
+    text-align: justify;
+    line-height: 2em;
+}
+#more-info {
+    border-width: 5px 10px 10px 10px;
+    margin-top: 0;
+    grid-column: 2/4;
 }

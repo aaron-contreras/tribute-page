@@ -12,19 +12,34 @@
 
     <body>
         <div id="main">
-            <header>
+            <header class="flex-container">
                 <h1 id="title">Thomas Edison</h1>
-                <p id="subtitle">
+                <p class="subtitle">
                     The greatest inventor of all time.
                 </p>
             </header>
             <main>
-                <figure id="img-div">
+                <figure class="flex-container" id="img-div">
                     <img id="image" src="images/edison.jpeg" alt="Image of Thomas Edison thinking on his desk"/>
                     <figcaption id="img-caption">
                         Thomas Edison thinking on his desk.
                     </figcaption>
                 </figure>
+                <div id="tribute-info">
+                    <div class="main-info" id="achievements">
+                        <h2 class="subtitle" id="achievements-title">Achievements</h2>
+                    </div>
+                    <div class="main-info" id="fun-facts">
+                        <h2 class="subtitle" id="fun-facts-title">Fun facts</h2>
+                        <ul id="fun-facts-list">
+                            <li>Youngest of seven children.</li>
+                            <li>Nearly deaf as an adult.</li>
+                            <li>Rivalry with <a href="https://en.wikipedia.org/wiki/Nikola_Tesla" target="_blank">Nikola Tesla</a></li>
+                        </ul>
+                    </div>
+                    <p class="main-info" id="more-info">To read more about this genius take a loot at this <a id="tribute-link" href="https://en.wikipedia.org/wiki/Thomas_Edison">Wikipedia entry</a>
+                    </p>
+                </div>
             </main>
         </div>
     </body>
