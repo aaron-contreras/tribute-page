@@ -37,7 +37,7 @@ header {
 #image {
     max-width: 844px;
     width: 75%;
-    border: 25px solid var(--tertiary-color);
+    /*border: 25px solid var(--tertiary-color);*/
 }
 #img-caption {
     padding: 25px;
@@ -63,7 +63,7 @@ header {
     grid-column: 3/4;
 }
 ul {
-    text-align: justify;
+    text-align: left;
     line-height: 2em;
 }
 #more-info {
@@ -95,9 +95,9 @@ ul {
     body {
         font-size: 14px;
     }
-    #image {
+    /*#image {
         border-width: 15px;
-    }
+    }*/
     .main-info {
         padding: 10px;
     }
