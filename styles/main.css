@@ -37,7 +37,7 @@ header {
 #image {
     max-width: 844px;
     width: 75%;
-    /*border: 25px solid var(--tertiary-color);*/
+    border: 25px solid var(--tertiary-color);
 }
 #img-caption {
     padding: 25px;
@@ -95,9 +95,9 @@ ul {
     body {
         font-size: 14px;
     }
-    /*#image {
+    #image {
         border-width: 15px;
-    }*/
+    }
     .main-info {
         padding: 10px;
     }
